@@ -45,8 +45,14 @@ venv.bak/
 # MacOS
 .DS_Store
 
-# Data
-data/*.csv
+# Data: Ignore everything in the data directory except .gitkeep
+data/*
+!data/.gitkeep
 
-# Models
-models/*.pkl
+# Models: Ignore everything in the models directory except .gitkeep
+models/*
+!models/.gitkeep
+
+# Reports: Ignore everything in reports except .gitkeep
+reports/*
+!reports/.gitkeep

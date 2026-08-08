@@ -45,8 +45,8 @@ venv.bak/
 # MacOS
 .DS_Store
 
-# Data (Optional: un-comment if you don't want to track the dataset)
-# data/*.csv
+# Data
+data/*.csv
 
-# Models (Optional: un-comment if you don't want to track models)
-# models/*.pkl
+# Models
+models/*.pkl
